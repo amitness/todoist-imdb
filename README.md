@@ -3,6 +3,11 @@ Automatically add IMDB rating and description to movies listed on todoist.
 
 ![Imgur](https://i.imgur.com/DNE91TF.png)
 
+## How it works
+- Add movies you wish to watch or are recommended to you as tasks to a project **Movies** on todoist.
+- The script will autodetect movies from task.
+- It'll add IMDB link, rating and description to the task.
+
 ## Usage
 1. Install required dependancies
 ```
