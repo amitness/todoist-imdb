@@ -10,18 +10,18 @@ The script adds IMDB link, rating and description to the task in project *Movies
 1. Create a project "Movies" on todoist.
 
 2. Install required dependancies.
-```
-pip install -r requirements.txt
-```
+    ```
+    pip install -r requirements.txt
+    ```
 
-3. Get todoist API key from settings > integrations on [todoist.com](https://todoist.com).
+3. Get todoist API key from `Settings > integrations` on [https://todoist.com](https://todoist.com).
 
 4. Set the API key as environment variable.
-```
-export TODOIST_APIKEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-```
+    ```
+    export TODOIST_APIKEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    ```
 
 5. Schedule the script to run periodically.
-```
-python movierater.py
-```
+    ```
+    python movierater.py
+    ```
