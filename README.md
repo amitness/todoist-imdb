@@ -3,25 +3,25 @@ Automatically add IMDB rating and description to movies listed on todoist.
 
 ![Imgur](https://i.imgur.com/DNE91TF.png)
 
-## How it works
-- Add movies you wish to watch or are recommended to you as tasks to a project **Movies** on todoist.
-- The script will autodetect movies from task.
-- It'll add IMDB link, rating and description to the task.
+The script adds IMDB link, rating and description to the task in project *Movies*.
+
 
 ## Usage
-1. Install required dependancies
+1. Create a project "Movies" on todoist.
+
+2. Install required dependancies.
 ```
 pip install -r requirements.txt
 ```
 
-2. Get todoist API key from settings > integrations on [todoist.com](https://todoist.com).
+3. Get todoist API key from settings > integrations on [todoist.com](https://todoist.com).
 
-3. Set the API key as environment variable named
+4. Set the API key as environment variable.
 ```
 export TODOIST_APIKEY='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
-4. Schedule the script to run periodically.
+5. Schedule the script to run periodically.
 ```
 python movierater.py
 ```
