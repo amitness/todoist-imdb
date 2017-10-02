@@ -14,7 +14,7 @@ The script adds IMDB link, rating and description to the task in project *Movies
     pip install -r requirements.txt
     ```
 
-3. Get todoist API key from `Settings > integrations` on [https://todoist.com](https://todoist.com).
+3. Get API key from `Settings > integrations` on [https://todoist.com](https://todoist.com).
 
 4. Set the API key as environment variable.
     ```
